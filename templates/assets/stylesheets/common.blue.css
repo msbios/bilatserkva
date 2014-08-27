@@ -1,0 +1,73 @@
+a {
+    color: #13517a;
+    text-decoration: none;
+}
+
+a:hover, h2,
+#jm-rss .jm-item .jm-top span {
+    color: #2c73a1;
+}
+
+.jm-light,
+.jm-dark,
+.jm-menu li a,
+.jm-menu li a:visited,
+.jm-menu li a:hover,
+#jm-top #jm-info a,
+#jm-main-news .jm-description .jm-inner,
+#jm-rss .jm-header .jm-inner a, 
+#jm-footer h3,
+#jm-footer a,
+#jm-footer a:hover {
+    color: white;
+}
+
+.jm-light {
+    background-color: #2c73a1;
+}
+
+.jm-dark, .jm-menu li a:hover,
+#jm-main-news .jm-description, 
+#jm-main-news .jm-description .jm-inner {
+    background-color: #13517a;
+}
+
+#jm-top {
+    background-color: #ecf0f3;
+}
+
+#jm-search {
+    background-image: url(../images/blue/search.png);
+}
+
+#jm-search input[type="text"],
+#jm-search button {
+    background-color: white;
+}
+
+h2 span a, 
+#jm-blogs-and-reviews .jm-item .jm-date,
+#jm-rss .jm-item .jm-top strong, 
+#jm-same strong.clearfix {
+    color: #696e71;
+}
+
+#jm-blogs-and-reviews .jm-item .jm-top a {
+    background-image: url(../images/blue/comment-dark.png);
+}
+
+#jm-blogs-and-reviews .jm-item .jm-top a:hover {
+    background-image: url(../images/blue/comment-light.png);
+}
+
+#jm-rss .jm-header .jm-inner {
+    background: url(../images/blue/rss.png) center center no-repeat;
+}
+
+#jm-rss .jm-item {
+    border-bottom: 1px dashed #c3c3c3;
+}
+
+#jm-same .jm-hot a {
+    border-left: 2px solid #2c73a1;
+}

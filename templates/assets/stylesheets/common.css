@@ -1,0 +1,204 @@
+/* 
+    Document   : common
+    Created on : 10.07.2013, 9:52:07
+    Author     : Judzhin Miles
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+a {
+    color: #3d4144;
+    text-decoration: none;
+}
+
+a:hover, h2,
+#jm-rss .jm-item .jm-top span {
+    color: #a60322;
+}
+
+.jm-light,
+.jm-dark,
+.jm-menu li a,
+.jm-menu li a:visited,
+.jm-menu li a:hover,
+#jm-top #jm-info a,
+#jm-main-news .jm-description .jm-inner,
+#jm-rss .jm-header .jm-inner a, 
+#jm-footer h3,
+#jm-footer a,
+#jm-footer a:hover {
+    color: white;
+}
+
+.jm-light {
+    background-color: #a60322;
+}
+
+.jm-dark, .jm-menu li a:hover,
+#jm-main-news .jm-description, 
+#jm-main-news .jm-description .jm-inner {
+    background-color: #3d4144;
+}
+
+#jm-top .right span {
+    padding: 10px 0px;
+}
+
+#jm-top #jm-info a {
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#jm-top {
+    background-color: #e8e8e8;
+}
+
+#jm-search {
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-image: url(../images/red/search.png);
+}
+
+#jm-search .span-7 .jm-inner {
+    padding: 10px 0px 10px 10px;
+}
+
+#jm-search .span-3 .jm-inner {
+    padding: 10px 10px 10px 0px;
+}
+
+#jm-search input[type="text"],
+#jm-search button {
+    border: none; margin: 0px; padding: 7px 5px;
+    background-color: white; width: 100%;
+    display: block;
+}
+
+#jm-search input[type="text"] {
+    width: 250px;
+    height: 17px;
+}
+
+#jm-pre-user table {
+    margin-bottom: 0px;
+}
+
+#jm-pre-user table tr:nth-child(2n) td,
+#jm-pre-user table tr.even td {
+    background: none;
+}
+
+.jm-menu {
+    margin: 0; padding: 0;
+    float: left;
+}
+
+.jm-menu li {
+    display: inline;
+}
+
+.jm-menu li a {
+    float: left; text-decoration: none;
+    padding: 10px 15px;
+}
+
+h2 span a, 
+#jm-blogs-and-reviews .jm-item .jm-date,
+#jm-rss .jm-item .jm-top strong, 
+#jm-same strong.clearfix {
+    color: #c3c3c3;
+}
+
+h2 span a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#jm-main-news {
+    position: relative;
+}
+
+#jm-main-news .jm-description {
+    position: absolute; width: 100%;
+    bottom: 0;
+}
+
+#jm-main-news .jm-description .jm-inner {
+    padding: 10px;
+}
+
+#jm-blogs-and-reviews .jm-item {
+    margin-bottom: 15px;
+}
+
+#jm-blogs-and-reviews .jm-item .jm-top {
+    margin-bottom: 5px;
+}
+
+#jm-blogs-and-reviews .jm-item .jm-top strong,
+#jm-blogs-and-reviews .jm-item .jm-top span {
+    margin-right: 10px;
+}
+
+#jm-blogs-and-reviews .jm-item .jm-top a {
+    padding: 10px 0px 10px 20px; 
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-image: url(../images/red/comment-dark.png);
+}
+
+#jm-blogs-and-reviews .jm-item .jm-top a:hover {
+    background-image: url(../images/red/comment-light.png);
+}
+
+#jm-rss .jm-header .jm-inner {
+    padding: 5px 10px;
+    background: url(../images/red/rss.png) center center no-repeat;
+}
+
+#jm-rss .jm-header .jm-inner a {
+    text-decoration: none;
+}
+
+#jm-rss .jm-item {
+    border-bottom: 1px dashed #c3c3c3;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#jm-rss .jm-item .jm-top {
+    margin-bottom: 5px;
+}
+
+#jm-rss .jm-item .jm-top strong {
+    margin-right: 10px;
+}
+
+#jm-rss .jm-last {
+    border: none;
+    padding-bottom: 0px;
+}
+
+#jm-same .jm-header {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#jm-same .jm-hot a {
+    border-left: 2px solid #a60322;
+    display: block;
+    padding: 0px 5px;
+    font-weight: bold;
+}
+
+#jm-same .jm-hot a:hover {
+    text-decoration: underline;
+}
+
+#jm-footer .inner {
+    padding: 20px;
+}
